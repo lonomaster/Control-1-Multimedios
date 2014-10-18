@@ -39,13 +39,15 @@
                 
                  <com.android.volley.toolbox.NetworkImageView
             android:id="@+id/Image"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
+           android:layout_width="fill_parent"
+  android:layout_height="200dp"
+  android:adjustViewBounds="true"
             android:layout_marginLeft="@dimen/feed_item_margin"
             android:layout_marginRight="@dimen/feed_item_margin"
             android:paddingBottom="@dimen/feed_item_padding_top_bottom"
             android:paddingLeft="@dimen/feed_item_padding_top_bottom"
             android:paddingRight="@dimen/feed_item_padding_top_bottom"
+            android:scaleType="centerCrop" 
             android:paddingTop="@dimen/feed_item_padding_top_bottom"
             android:visibility="visible" >
         </com.android.volley.toolbox.NetworkImageView>
